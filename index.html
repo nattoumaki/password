@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/calc.svg">
+    <title>パスワード</title>
+    <script src="js/password.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p id="display"></p>
+      <form id="input-form">
+        <ul>
+          <li ><input type="checkbox" name="num" id="num" value="num" checked="checked">数字</li>
+          <li ><input type="checkbox" name="small" id="small" value="small" checked="checked">英字(小文字)</li>
+          <li ><input type="checkbox" name="big" id="big" value="big" checked="checked">英字(大文字)</li>
+          <li><input type="number", value="8" min="4", max="40" id="ee"></li>
+          <li><input type="submit" class="geneBtn" id="geneBtn" value="生成" /></li>
+        </ul>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
